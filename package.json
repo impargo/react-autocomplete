@@ -1,6 +1,6 @@
 {
   "name": "@impargo/react-autocomplete",
-  "version": "1.8.2",
+  "version": "2.0.0",
   "description": "Accessible, extensible, Autocomplete for React.js",
   "main": "./build/lib/Autocomplete.js",
   "files": [
