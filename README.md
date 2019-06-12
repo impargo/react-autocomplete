@@ -39,8 +39,8 @@ yarn add react-autocomplete
 
 ### AMD/UMD
 
-* Development: [https://unpkg.com/react-autocomplete@1.8.1/dist/react-autocomplete.js](https://unpkg.com/react-autocomplete@1.8.1/dist/react-autocomplete.js)
-* Production: [https://unpkg.com/react-autocomplete@1.8.1/dist/react-autocomplete.min.js](https://unpkg.com/react-autocomplete@1.8.1/dist/react-autocomplete.min.js)
+* Development: [https://unpkg.com/react-autocomplete@1.8.2/dist/react-autocomplete.js](https://unpkg.com/react-autocomplete@1.8.2/dist/react-autocomplete.js)
+* Production: [https://unpkg.com/react-autocomplete@1.8.2/dist/react-autocomplete.min.js](https://unpkg.com/react-autocomplete@1.8.2/dist/react-autocomplete.min.js)
 
 ## API
 
@@ -69,10 +69,15 @@ Whether or not to automatically highlight the top match in the dropdown
 menu.
 
 #### `autoHighlightValueMatches: Function` (optional)
-Default value: `(itemValue, value) => (itemValue.toLowerCase().indexOf(value.toLowerCase()) === 0)`
+Default value:
+```jsx
+(itemValue, value) => (itemValue.toLowerCase().indexOf(
+  value.toLowerCase()
+) === 0)
+```
 
-When `autoHighlight` is true, this is invoked to determine whether the top item
-in the dropdown menu should be considered a match.
+Custom function to determine whether the top match in the dropdown should
+highlight
 
 #### `inputProps: Object` (optional)
 Default value: `{}`
