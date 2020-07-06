@@ -1,6 +1,6 @@
 {
   "name": "@impargo/react-autocomplete",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "Accessible, extensible, Autocomplete for React.js",
   "main": "./build/lib/Autocomplete.js",
   "files": [
@@ -10,10 +10,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/reactjs/react-autocomplete.git"
+    "url": "https://github.com/impargo/react-autocomplete.git"
   },
-  "homepage": "https://github.com/reactjs/react-autocomplete",
-  "bugs": "https://github.com/reactjs/react-autocomplete/issues",
+  "homepage": "https://github.com/impargo/react-autocomplete",
+  "bugs": "https://github.com/impargo/react-autocomplete/issues",
   "directories": {
     "example": "examples"
   },
